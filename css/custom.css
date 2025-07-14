@@ -1,52 +1,9 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Brixo - Construction HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
-/* INDEX
-----------------------------------------------------------------------------------------
-01. Global Variables
-02. General css
-03. Header css
-04. Hero css
-05. About Us css
-06. Our Services css
-07. Why Choose Us css
-08. Industry Archivement css
-09. Our Projects css
-10. Our Testimonials css
-11. What We Do css
-12. Our FAQs css
-13. CTA Box css
-14. Our Blog css
-15. Footer css
-16. About us Page css
-17. Services Page css
-18. Service Single css
-19. Blog Archive css
-20. Blog Single css
-21. Project Page css
-22. Project Single css
-23. Case Study Page css
-24. Case Study Single css
-25. Team Page css
-26. Team Single css
-27. Testimonial Page css
-28. Contact Us page css
-29. 404 Page css
-30. Responsive css
--------------------------------------------------------------------------------------- */
-
-/************************************/
-/*** 	 01. Global Variables	  ***/
-/************************************/	
-
 :root{
 	--primary-color			: #1E1E1E;
 	--secondary-color		: #F8F8F8;
 	--text-color			: #707070;
-	--accent-color			: #FFB703;
+	--accent-color			: #ff5e14;
+	--blue-color			: #00235a;
 	--white-color			: #FFFFFF;
 	--divider-color			: #E3E3E3;
 	--dark-divider-color	: #FFFFFF26;
@@ -948,7 +905,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .about-us{
-	background-image: linear-gradient(180deg, var(--secondary-color) 70%, var(--white-color) 30%);
+	background-image: linear-gradient(180deg, var(--secondary-color) 100%, var(--white-color) 30%);
 	padding: 100px 0 50px;
 }
 
@@ -1105,7 +1062,7 @@ header.main-header .header-sticky.active{
     top: 100%;
     right: 0;
     left: 0;
-    background-color: var(--accent-color);
+    background-color: var(--blue-color);
     transition: all 0.4s ease-in-out;
     height: 100%;
     width: 100%;
@@ -1858,7 +1815,7 @@ header.main-header .header-sticky.active{
 
 .post-featured-image img{
 	width: 100%;
-	aspect-ratio: 1 / 0.71;
+	aspect-ratio: 1 / 0.58;
 	object-fit: cover;
 	transition: all 0.5s ease-in-out;
 }
