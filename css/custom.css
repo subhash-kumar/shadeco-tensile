@@ -1889,8 +1889,9 @@ header.main-header .header-sticky.active{
 .main-footer{
 	background: var(--primary-color) url('../images/footer-bg.svg') no-repeat;
 	background-position: right bottom;
-	background-size: auto;
+	background-size: cover;
 	padding: 60px 0 0;
+	
 }
 
 .main-footer .our-scrolling-ticker{
