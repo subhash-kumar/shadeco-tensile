@@ -1086,6 +1086,7 @@ header.main-header .header-sticky.active{
 .service-item .icon-box img{
 	max-width: 60px;
 	transition: all 0.5s ease-in-out;
+	filter: hue-rotate(321deg);
 }
 
 .service-item:hover .icon-box img{
@@ -1148,6 +1149,7 @@ header.main-header .header-sticky.active{
 	width: 24px;
 	height: 24px;
 	transition: all 0.3s ease-in-out;
+	filter: hue-rotate(321deg);
 }
 
 .service-item:hover .service-btn a::before{
