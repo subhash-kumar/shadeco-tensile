@@ -1,5 +1,5 @@
 :root{
-	--primary-color			: #1E1E1E;
+	--primary-color			: #00235a;
 	--secondary-color		: #F8F8F8;
 	--text-color			: #707070;
 	--accent-color			: #ff5e14;
@@ -378,6 +378,7 @@ body{
 	background-size: cover;
 	width: 36px;
 	height: 7px;
+	filter: hue-rotate(321deg);
 }
 
 .section-title h1{
@@ -1701,6 +1702,7 @@ header.main-header .header-sticky.active{
 	height: 24px;
 	color: var(--white-color);
 	transition: all 0.3s ease-in-out;
+	filter: hue-rotate(321deg);
 }
 
 .our-faq-section .accordion-item .accordion-button.collapsed::after{
@@ -1779,6 +1781,7 @@ header.main-header .header-sticky.active{
 .cta-experience-circle img{
 	max-width: 140px;
 	animation: experiencerotate 30s infinite linear;
+	filter: hue-rotate(321deg);
 }
 
 @keyframes experiencerotate{
@@ -1865,6 +1868,7 @@ header.main-header .header-sticky.active{
     background-size: cover;
     transform: translate(0px, -50%);
     transition: all 0.4s ease-in-out;
+	filter: hue-rotate(321deg);
 }
 
 .post-readmore-btn a:hover:before{
