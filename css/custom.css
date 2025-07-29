@@ -1820,7 +1820,7 @@ header.main-header .header-sticky.active{
 
 .post-featured-image img{
 	width: 100%;
-	aspect-ratio: 1 / 0.58;
+	/* aspect-ratio: 1 / 0.58; */
 	object-fit: cover;
 	transition: all 0.5s ease-in-out;
 }
