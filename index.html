@@ -12,7 +12,7 @@
     <!-- Page Title -->
     <title>Shadeco Tensile</title>
     <!-- Favicon Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.webp">
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
@@ -43,7 +43,7 @@
     <div class="preloader">
         <div class="loading-container">
             <div class="loading"></div>
-            <div id="loading-icon"><img src="images/loader.svg" alt=""></div>
+            <div id="loading-icon"><img src="images/loader.webp" alt=""></div>
         </div>
     </div>
     <!-- Preloader End -->
@@ -129,6 +129,9 @@
         <div class="swiper">
             <div class="swiper-wrapper">
                 <!-- Hero Slide Start -->
+                
+
+
                 <div class="swiper-slide">
                     <div class="hero-slide">
                         <!-- Slider Image Start -->
@@ -184,8 +187,7 @@
                                         <!-- Section Title Start -->
                                         <div class="section-title">
                                             <h3 class="wow fadeInUp">INNOVATIVE SOLUTIONS</h3>
-                                            <h1 class="text-anime-style-3" data-cursor="-opaque">TENSILE STRUCTURES,
-                                                CANOPIES & FAÇADES</h1>
+                                            <h1 class="text-anime-style-3" data-cursor="-opaque">TENSILE STRUCTURES, CANOPIES & FAÇADES</h1>
                                         </div>
                                         <!-- Section Title End -->
 
@@ -355,7 +357,7 @@
                     <div class="col-lg-4 col-md-5 col-7">
                         <!-- Our Client Content Start -->
                         <div class="our-client-content wow fadeInUp">
-                            <p>Successfully Completed Projects</p>
+                            <p style="white-space: nowrap;">Successfully Completed<br /> Projects</p>
                         </div>
                         <!-- Our Client Content End -->
                     </div>
@@ -365,6 +367,22 @@
         <!-- Our Client End -->
     </div>
     <!-- Hero Section End -->
+     <style>
+        .hero-slider-layout {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-swiper,
+.swiper-wrapper,
+.swiper-slide,
+.hero-slide {
+  height: 160vh; 
+}
+
+
+
+     </style>
 
     <!-- About Us Section Start -->
     <div class="about-us">
@@ -3557,7 +3575,7 @@ use of space.">
         <!-- Scrolling Ticker Section End -->
        <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-3 col-md-3 col-5">
+                <div class="col-lg-4 col-md-4 col-12">
                     <!-- About Footer Start -->
                     <div class="about-footer">
                         <!-- Footer Logo Start -->
@@ -3565,13 +3583,20 @@ use of space.">
                             <img src="images/logo.png" style="width: 220px;" alt="">
                             <p class="text-white">We specialize in the fabrication of tensile structures, shade sails, canopies and complete project solutions.</p>
                         </div>
+                        <div class="footer-social mt-3">
+          <a href="#" class="mr-3 text-white"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="mr-3 text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="mr-3 text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
                         <!-- Footer Logo End -->
                     </div>
                     <!-- About Footer End -->
                 </div>
-                <div class="col-lg-3 col-md-3 col-6">
-                    <!-- Footer Links Start -->
-                    <div class="footer-links">
+                <div class="col-lg-8 col-md-8 col-12">
+                    <div class="row">
+                        <div class="col-md-4 col-6">
+                             <div class="footer-links footer-links01">
                         <h3>Quick Links</h3>
                         <ul>
                             <li><a href="#">About Us</a></li>
@@ -3582,12 +3607,8 @@ use of space.">
                             <li><a href="#">Contact Us</a></li>
                         </ul>
                     </div>
-                    <!-- Footer Links End -->
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-6">
-                    <!-- Footer Links Start -->
-                    <div class="footer-links">
+                        </div>
+                        <div class="col-md-4 col-6"><div class="footer-links">
                         <h3>Our Products</h3>
                         <ul>
                             <li><a href="#">Tensile Structures</a></li>
@@ -3597,20 +3618,22 @@ use of space.">
                             <li><a href="#">Awnings & Pergolas</a></li>
                             <li><a href="#">Pagoda Tents & Halls</a></li>
                         </ul>
-                    </div>
-                    <!-- Footer Links End -->
-                </div>
-
-                <div class="col-lg-3 col-md-3 col-7">
-                    <!-- Footer Links Start -->
-                    <div class="footer-links footer-contact-info">
+                    </div></div>
+                        <div class="col-md-4"><div class="footer-links footer-contact-info">
                         <h3>Get In Touch</h3>
                         <p>+91 9871899918</p>
                         <p>info@shadecoindia.com</p>
                         <p>Plot No. 3, G/F, Kh No. 1872/368, Village Asola, Near Shani Dham Mandir, Main Chhatarpur Rd, Asola, South Delhi, Delhi 110074</p>
+                    </div></div>
                     </div>
+                    <!-- Footer Links Start -->
+                   
                     <!-- Footer Links End -->
                 </div>
+
+                
+
+                
 
                 
             </div>
@@ -3641,6 +3664,7 @@ use of space.">
             <!-- Footer Copyright Section End -->
         </div>
     </footer>
+    
     <!-- Footer End -->
 
     <!-- Jquery Library File -->

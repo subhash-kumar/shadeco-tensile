@@ -854,7 +854,7 @@ header.main-header .header-sticky.active{
 	background-color: var(--white-color);
 	width: 100%;
 	max-width: 750px;
-	padding: 40px;
+	padding: 20px;
 	z-index: 2;
 }
 
@@ -5557,4 +5557,15 @@ header.main-header .header-sticky.active{
 	.error-page-content-heading h2{
         font-size: 24px;
 	}
+	
+}
+@media (max-width:600px){
+	.footer-links01 {
+    padding-left: 0px !important;
+    
+}
+}
+.footer-links01 {
+    padding-left: 70px;
+    
 }
