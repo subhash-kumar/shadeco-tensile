@@ -854,7 +854,7 @@ header.main-header .header-sticky.active{
 	background-color: var(--white-color);
 	width: 100%;
 	max-width: 750px;
-	padding: 20px;
+	padding: 40px;
 	z-index: 2;
 }
 
