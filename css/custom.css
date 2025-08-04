@@ -721,7 +721,7 @@ header.main-header .header-sticky.active{
     transform: rotate(-180deg);
 	color: var(--primary-color);
 }
-
+h1.text-anime-style-3{font-size: 58px;}
 /************************************/
 /***        04. Hero css	      ***/
 /************************************/
